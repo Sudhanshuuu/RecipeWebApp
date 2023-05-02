@@ -1,0 +1,25 @@
+.popular{
+background-position: center;
+padding: 5% 0;
+display: grid;
+justify-content: center;
+grid-template-columns: 40vw 40vw;
+}
+
+.popular>div{
+    margin:0 5%;
+}
+
+.popular>div:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 3;
+   
+   
+}
+
+@media only screen and  (max-width: 480px) {
+    .popular{
+        display: flex;
+        flex-direction: column;
+    }
+}

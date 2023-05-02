@@ -1,0 +1,21 @@
+.service {
+    text-align: center;
+    width: 98vw;
+}
+
+.service-head{
+font-family: 'Silkscreen', cursive;
+font-size:1rem;
+}
+
+.service-content img{
+    width: 32vw;
+    height: 15vw;
+}
+
+@media only screen and (max-width:850px) {
+    .service-content img{
+        width: 60%;
+        height: 60%;
+    }
+}

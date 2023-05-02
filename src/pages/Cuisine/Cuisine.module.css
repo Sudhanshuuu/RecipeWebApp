@@ -1,0 +1,51 @@
+.cuisine {
+    padding-top: 3%;
+padding-left: 15%;
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw 15vw;
+    align-items: center;
+    gap: 3vw;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.cuisine-items {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #b6c8d2;
+
+   padding-bottom: 8%;
+   border-radius: 15px;
+   transition: 500ms;
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+.cuisine-items>p {
+    text-align: center;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.462);
+    word-spacing:5px;
+    z-index: 4;
+
+}
+
+.cuisine-items>img {
+ 
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    z-index: 4;
+
+}
+
+.cuisine-items:hover{
+    transform: translateY(-3vh);
+}
+
+@media only screen and (max-width:850px) {
+    .cuisine{
+        display: flex;
+        flex-direction: column;
+        padding:5% 0;
+    }
+}
